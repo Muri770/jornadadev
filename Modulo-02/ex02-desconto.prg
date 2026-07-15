@@ -9,6 +9,6 @@ FUNCTION MAIN()
         
     nTotal := nValor - nDesconto
     
-    QOut("o valor com desconto ‚: R$" + str(nDesconto))
+    QOut("o valor com desconto Ã©: R$" + str(nDesconto))
 
-RETURN Nil  
+RETURN Nil

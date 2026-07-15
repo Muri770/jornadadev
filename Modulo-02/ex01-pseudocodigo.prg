@@ -1,6 +1,5 @@
 FUNCTION Main()
     hb_cdpSelect("UTF8")
-    hb_language("PT")
     Soma(10, 20)
 RETURN NIL
 

@@ -33,4 +33,4 @@ Cliente criado durante a aula (Michael Jackson):
 
 Campo A1_XAPELID aparecendo na aba Outros do cadastro:
 
-![Campo Apelido do cliente](evidencias/ex-04michael-jackson-apelido.png)
+![Campo Apelido do cliente](evidencias/ex04-michael-jackson-apelido.png)

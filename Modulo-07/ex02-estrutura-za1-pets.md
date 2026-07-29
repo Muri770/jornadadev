@@ -6,12 +6,14 @@
 ## a. Liste os campos da ZA1 (nome do campo, tipo, tamanho) — incluindo o campo de filial,
 que é obrigatório em toda tabela do Protheus.
 
-R:  | Campo      | Tipo     | Tamanho |
-    | ---------- | -------- | ------- |
-    | ZA1_FILIAL | Caracter | 2       |
-    | ZA1_NOME   | Caracter | 50      |
-    | ZA1_RACA   | Caracter | 50      |
-    | ZA1_DATANC | Data     | 8       |
+R:
+
+| Campo       | Tipo      | Tamanho |
+|-------------|-----------|---------|
+| ZA1_FILIAL  | Caracter  | 2       |
+| ZA1_NOME    | Caracter  | 50      |
+| ZA1_RACA    | Caracter  | 50      |
+| ZA1_DATANC  | Data      | 8       |
 
 ## b. Que índice faria sentido para a ZA1? Justifique (lembre da analogia da lista telefônica).
 

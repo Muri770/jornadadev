@@ -1,0 +1,7 @@
+"X7_CAMPO","X7_SEQUENCIA","X7_CDOMIN","X7_TIPO","X7_REGRA","X7_POSICIO","X7_ALIAS","X7_ORDEM","X7_CHAVE"
+"ZZ1_LOJAFO","001","ZZ1_NOMEFO","1=Primario","POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ1_FORNEC+M->ZZ1_LOJAFO,""A2_NOME"")","Sim","SA2","1","xFilial(""SA2"")+M->ZZ1_FORNEC+M->ZZ1_LOJAFO"
+"ZZ2_CONFOR","001","ZZ2_FORNEC","1=Primario","POSICIONE(""ZZ1"",1,xFilial(""ZZ1"")+M->ZZ2_CONFOR,""ZZ1_FORNEC"")","Sim","ZZ1","1","xFilial(""ZZ1"")+M->ZZ2_CONFOR"
+"ZZ2_CONFOR","002","ZZ2_LOJAFO","1=Primario","POSICIONE(""ZZ1"",1,xFilial(""ZZ1"")+M->ZZ2_CONFOR,""ZZ1_LOJAFO"")","Sim","ZZ1","1","xFilial(""ZZ1"")+M->ZZ2_CONFOR"
+"ZZ2_CONFOR","003","ZZ2_NOMEFO","1=Primario","POSICIONE(""SA2"",1,xFilial(""SA2"")+M->ZZ2_FORNEC+M->ZZ2_LOJAFO,""A2_NOME"")","Sim","SA2","1","xFilial(""SA2"")+M->ZZ2_FORNEC+M->ZZ2_LOJAFO"
+"ZZ2_DATA","001","ZZ2_DATA","1=Primario","IF(INCLUI, dDataBase, ZZ2->ZZ2_DATA)","Nao","","",""
+"ZZ2_HORA","001","ZZ2_HORA","1=Primario","IF(INCLUI, Time(), ZZ2->ZZ2_HORA)","Nao","","",""
